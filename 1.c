@@ -48,7 +48,15 @@ int delete(int arr[],int n,int x)
     {
         arr[j]=arr[j+1];    
     }
-
+    return n - 1;
+}
+int getsmax(int arr[],int n)
+{
+    int max=arr[0];
+    intsmax= -1;
+    for(int)
+}    
+int main()
 {
     int arr[]= {70,60,50,40,30,20,10};
     //int n = sizeof(arr) / sizeof(arr[0]);
@@ -57,7 +65,8 @@ int delete(int arr[],int n,int x)
     printf("%d\n",search(arr,n,48));
     // insert(arr,n,55,2);
     // delete(arr, n,58)
-    //display(arr')
+    //display(arr , n);
+    
 }
     
 
